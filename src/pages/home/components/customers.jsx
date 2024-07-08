@@ -1,12 +1,7 @@
 const Customers = () => {
   return (
     <div>
-    
-    
-    
-    
-    
-    </div>
+   </div>
   )
 }
 

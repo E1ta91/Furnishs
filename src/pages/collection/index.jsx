@@ -5,3 +5,7 @@ const Collection = () => {
 }
 
 export default Collection;
+
+import React from 'react'
+
+
