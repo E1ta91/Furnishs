@@ -1,15 +1,17 @@
 import { aimg } from "../../../assets";
 
+
 const About = () => {
   return (
     <div
-      className="relative w-screen h-[90vh] z-0  mt-11 flex items-center justify-center"
+      className="relative w-screen h-screen z-0  mt-11 flex items-center justify-center"
       style={{
         backgroundImage: `url(${aimg})`,
         backgroundSize: 'cover',
       }}
     >
-      <div className="bg-white opacity-80 absolute right-1 shadow-lg rounded-lg p-8 max-w-md">
+     
+      <div className="bg-white opacity-80 absolute left-1 shadow-lg  rounded-lg  p-8 max-w-md">
         <h3 className="text-xl font-semibold mb-4">About Furnish</h3>
         <h1 className="text-3xl font-bold mb-4">Quality Makes the Belief for Customers</h1>
         <p className="text-sm leading-relaxed">
@@ -19,6 +21,8 @@ const About = () => {
           large language ocean.
         </p>
       </div>
+    
+      
     </div>
   );
 };

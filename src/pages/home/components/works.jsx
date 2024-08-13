@@ -1,6 +1,15 @@
+
+
 const Works = () => {
   return (
-    <div>Works</div>
+    <div>
+      <h4>PRODUCTION FLOWS</h4>
+      <h1>How it Works</h1>
+   
+     
+    
+      
+    </div>
   )
 }
 

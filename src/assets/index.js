@@ -10,11 +10,21 @@ import furniture from "./img/furniture.jpg"
 import hotel from "./img/hotel.jpg"
 import aimg from "./img/aimg.jpg"
 import abimg from "./img/abimg.jpg"
+import workImg1 from "./img/work-img1.png"
+import workImg2 from "./img/work-img2.jpg"
+import workImg3 from "./img/work-img3.png"
+import twitter from "./img/twitter.png"
+import whatsaap from "./img/whatsaap.png"
+import george from "./img/george.png"
+import emely from "./img/emely.webp"
+
+
+
 
 
 
 export {
-    cImg5, logo, bg2, abtimg2, cImg4,armchair,chaise, interior,furniture,hotel,aimg, abimg
+    cImg5, logo, bg2, abtimg2, cImg4,armchair,chaise, interior,furniture,hotel,aimg, abimg, workImg1, workImg2, workImg3, twitter, whatsaap, george, emely,
 };
 
 

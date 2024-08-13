@@ -4,7 +4,7 @@ import Customers from "./components/customers";
 import Hero from "./components/hero";
 import Services from "./components/services";
 import Stats from "./components/stats";
-import Works from "./components/works";
+
 
 const Home = () => {
   return (
@@ -15,7 +15,6 @@ const Home = () => {
       <Collection/>
       <Stats/>
       <Customers/>
-      <Works/>
     </div>
   )
 }

@@ -9,10 +9,11 @@ const Services = () => {
           (service, index) => {
             return (
               <div key={index}
-                className={`flex flex-col gap-1 h-[240px] pl-12 pt-7`}
+                className={`flex flex-col gap-1 h-[280px] pl-12 pt-7 ` }
                 style={{ backgroundColor: service.bgColor }}
               >
-                <span  >{service.Icons}</span>
+                <span  className={"bg-white w-fit p-4 rounded-full text-white"} 
+                 style={{ backgroundColor: service.iconBg }} >{service.Icons}</span>
                 <div className="flex flex-col  gap-3 pt-5">
                 <h3 className="font-semibold text-[18px]"> {service.title} </h3>
                 <p className="text-wrap text-gray-600 text-[16px]"> {service.description} </p>
