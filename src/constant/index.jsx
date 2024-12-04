@@ -1,6 +1,6 @@
 import { BedDouble, Handshake, Headphones, SofaIcon } from "lucide-react";
 
-import {  george, workImg1, workImg2, workImg3} from "../assets";
+import {  emely, george, workImg1, workImg2, workImg3} from "../assets";
 
 const K = {
     NAVLINKS: [
@@ -83,7 +83,7 @@ const K = {
         },
         {
             description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.',
-            img: george,
+            img: emely,
             name: 'Roger Scott',
             title: 'Marketing manager'
         },

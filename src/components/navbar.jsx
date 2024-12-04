@@ -4,7 +4,7 @@ import { logo } from "../assets";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-32 py-10 fixed w-full left-0 top-0"  >
+    <div className="flex justify-between px-32 py-10 fixed w-full left-0 top-0 z-50"  >
     <img className="w-48 mb-10" src={logo} alt="logo" />
      <div className="flex gap-x-12 text-xl">
       {
